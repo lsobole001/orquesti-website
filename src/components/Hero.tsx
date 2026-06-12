@@ -1,10 +1,10 @@
-import { ArrowRight, Play, Shield, Globe, Download, CreditCard } from 'lucide-react';
+import { ArrowRight, Bell, Sparkles, Globe, Rocket } from 'lucide-react';
 
 const trustItems = [
-  { icon: CreditCard, text: 'No credit card required' },
-  { icon: Shield, text: 'Free plan available' },
-  { icon: Globe, text: '24/7 accessible anywhere' },
-  { icon: Download, text: 'No installation required' },
+  { icon: Bell, text: 'Early access notification' },
+  { icon: Sparkles, text: 'Launch pricing exclusive' },
+  { icon: Globe, text: 'Cloud-based platform' },
+  { icon: Rocket, text: 'Be first to try it' },
 ];
 
 export default function Hero() {
@@ -41,15 +41,8 @@ export default function Hero() {
                 href="#signup"
                 className="inline-flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-400 text-navy-950 font-semibold px-7 py-3.5 rounded-lg transition-all duration-200 hover:shadow-lg hover:shadow-amber-500/25 group"
               >
-                Create Free Account
+                Join Waitlist
                 <ArrowRight size={18} className="group-hover:translate-x-0.5 transition-transform" />
-              </a>
-              <a
-                href="#demo"
-                className="inline-flex items-center justify-center gap-2 glass hover:bg-white/10 text-white font-medium px-7 py-3.5 rounded-lg transition-all duration-200"
-              >
-                <Play size={18} />
-                Watch Demo
               </a>
             </div>
 

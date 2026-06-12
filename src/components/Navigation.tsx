@@ -5,6 +5,7 @@ const navLinks = [
   { label: 'How it Works', href: '#workflow' },
   { label: 'Features', href: '#features' },
   { label: 'Industries', href: '#industries' },
+  { label: 'Pricing', href: '#pricing' },
   { label: 'FAQ', href: '#faq' },
 ];
 
@@ -49,10 +50,16 @@ export default function Navigation() {
 
           <div className="hidden md:flex items-center gap-3">
             <a
+              href="#demo"
+              className="text-sm text-white/70 hover:text-white transition-colors px-4 py-2"
+            >
+              Book a Demo
+            </a>
+            <a
               href="#signup"
               className="text-sm font-semibold bg-amber-500 hover:bg-amber-400 text-navy-950 px-5 py-2.5 rounded-lg transition-all duration-200 hover:shadow-lg hover:shadow-amber-500/20"
             >
-              Join Waitlist
+              Create Free Account
             </a>
           </div>
 
@@ -78,13 +85,15 @@ export default function Navigation() {
                 {link.label}
               </a>
             ))}
-            <div className="pt-3 border-t border-white/10">
+            <div className="pt-3 border-t border-white/10 space-y-2">
+              <a href="#demo" className="block text-sm text-white/70 hover:text-white py-2">
+                Book a Demo
+              </a>
               <a
                 href="#signup"
-                onClick={() => setMobileOpen(false)}
                 className="block text-sm font-semibold bg-amber-500 text-navy-950 px-5 py-2.5 rounded-lg text-center"
               >
-                Join Waitlist
+                Create Free Account
               </a>
             </div>
           </div>

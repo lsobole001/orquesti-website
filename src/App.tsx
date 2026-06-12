@@ -7,7 +7,7 @@ import Automation from './components/Automation';
 import Benefits from './components/Benefits';
 import Industries from './components/Industries';
 import FAQ from './components/FAQ';
-import FinalCTA from './components/FinalCTA';
+import EarlyAccess from './components/EarlyAccess';
 import Footer from './components/Footer';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
       <Benefits />
       <Industries />
       <FAQ />
-      <FinalCTA />
+      <EarlyAccess />
       <Footer />
     </div>
   );
